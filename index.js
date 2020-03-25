@@ -6,7 +6,7 @@ const port = 8081;
 const server = http.createServer((req, res) => {
   res.statusCode = 200;
   res.setHeader('Content-Type', 'text/plain');
-  res.end('Hello World1');
+  res.end('Hello World on BlazeMeter');
 });
 
 server.listen(port, hostname, () => {
